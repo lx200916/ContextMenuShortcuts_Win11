@@ -13,6 +13,10 @@
 * Windows11 限制了一个应用只能创建一个一级菜单入口，并可以创建多个子菜单。本项目意在批量生成右键菜单捷径，因此每个包只添加一个一级菜单。如果你的使用场景是在一级菜单下创建多个子菜单，请考虑[ContextMenuForWindows11](https://github.com/ikas-mc/ContextMenuForWindows11)项目.
 * 要侧载以上的 Sparse Package, 必须使用信任的根证书签发它.对于本项目而言，你需要信任 `./Release`文件夹下的 `Key.cer`并添加到`受信任的根证书存储区`.当然你也可以自行签发信任证书并覆盖此文件. 
 
+效果如下:
+
+![image](https://user-images.githubusercontent.com/44310445/174622439-ba5c8560-d9d5-442d-b80c-eb7694fbf077.png)
+
 ### 使用方法
 为避免安装庞大的`Windows SDK`, 本项目采用Github Actions来完成产物编译.
 
