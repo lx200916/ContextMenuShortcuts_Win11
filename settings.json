@@ -1,0 +1,6 @@
+{
+    "icon":"\"C:\\Program Files\\Everything\\Everything.exe\",0",
+    "title":"搜索Everything",
+    "cmd":"\"C:\\Program Files\\Everything\\Everything.exe\" -path \"%1\"",
+    "name":"Everything",
+}
